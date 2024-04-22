@@ -1,4 +1,12 @@
 {
+    "builds": [
+        {
+            "config":{
+                "maxLambdaSize": "15mb",
+                "runtine": "python3.9"
+            }
+        }
+    ],
     "routes": [
         {
             "src": "/(.*)",
